@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "backend"
+version = "0.1.0"
+description = "Backend do BD Metadados com a stack Django + Django Ninja + <frontend>"
+authors = ["Mauricio Fagundes <mauricio.fagundes@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Django = "^4.1.3"
+python-decouple = "^3.6"
+pre-commit = "^2.20.0"
+dj-database-url = "^1.0.0"
+psycopg2-binary = "^2.9.5"
+django-autoslug = "^1.9.8"
+
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.2.0"
+pytest-django = "^4.5.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
