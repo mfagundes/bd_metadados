@@ -13,6 +13,7 @@ pre-commit = "^2.20.0"
 dj-database-url = "^1.0.0"
 psycopg2-binary = "^2.9.5"
 django-autoslug = "^1.9.8"
+django-ninja = "^0.19.1"
 
 
 [tool.poetry.group.test.dependencies]
